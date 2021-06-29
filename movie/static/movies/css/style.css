@@ -1,0 +1,155 @@
+.header {
+    display: block;
+    width: 100%;
+    height: 120px;
+
+
+
+}
+
+
+ul {
+
+text-decoration: none;
+text-transform: none;
+}
+
+.years {
+    display: block;
+    width: 100%;
+
+}
+
+li {
+text-decoration: none;
+text-transform: none;
+
+}
+.genre {
+    font-size: 18px;
+    min-width: 220px;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    margin-right: 10px;
+
+
+}
+.movie-name {
+    text-align: center;
+    margin: 3px 0 3px 0;
+}
+
+.movies{
+    display: flex;
+
+
+}
+
+
+.movie {
+
+margin-left: 10px;
+}
+.content {
+
+margin-left: 30px;
+margin-top: 80px;
+
+}
+.film-content {
+ min-width: 340px;
+
+}
+
+.nav .categories {
+
+
+}
+
+.category {
+    margin: 9px 5px 9px 5px;
+    padding: 7px 9px 7px 9px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    color: #444;
+    text-decoration: none;
+
+}
+
+.category a {
+    color: #333;
+}
+
+a {
+text-decoration: none;
+text-transform: none;
+}
+
+.category:hover {
+    transition: 0.3s all;
+    opacity: .8;
+    text-decoration: none;
+    border-radius:12px 12px 0px 12px;
+
+}
+
+.filter_film {
+    text-decoration: none;
+}
+
+.filter_genre {
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+
+
+}
+
+
+.main-menu {
+    margin-right: 20px;
+
+}
+.filter_film {
+    text-decoration: none;
+}
+
+.filter_genre {
+    text-decoration: none;
+    margin: 5px auto;
+    list-style: none;
+    color: #444;
+
+}
+
+.filter_years {
+    text-decoration: none;
+    margin: 5px auto;
+    list-style: none;
+    color: #444;
+
+}
+
+.filter_selected {
+    text-align: center;
+    margin-right: 10px;
+
+
+
+}
+
+.year {
+ margin-top: 20px;
+
+}
+
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+
+
+}
+
+.movie{
+    margin: 10px 15px 10px 15px;
+}

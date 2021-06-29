@@ -1,0 +1,23 @@
+{% extends 'movie/base.html' %}
+
+
+{% block content %}
+{% for cat in category %}
+            <div class="movie">
+                <a href="{{ cat.get_absolute_url }}">
+
+                <div>
+                    {% if cat.poster %}
+                    <img src="{{ cat.poster.url }}" alt="" width="300" height="400">
+
+                    {% else %}
+                    <img src="http://placehold.it/300x400" alt="">
+
+                    {% endif %}
+                    <h4 class="movie-name">{{ cat.name }}</h4>
+                </div>
+
+                </a>
+            </div>
+{% endfor %}
+{% endblock %}

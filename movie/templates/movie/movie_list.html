@@ -1,0 +1,35 @@
+{% extends 'movie/base.html' %}
+
+
+{% block content %}
+
+<div class="wrapper d-flex">
+
+
+    <div class="movies">
+
+        {% for movie in movies %}
+            <div class="movie">
+                <a href="{{ movie.get_absolute_url }}">
+
+                <div>
+                            {% if movies_detail.poster %}
+                    <img src="{{ movies_detail.poster.url }}" width="300" height="400">
+
+                    {% else %}
+                    <img src="http://placehold.it/300x400" alt="">
+
+                    {% endif %}
+                    <h4 class="movie-name">{{ movie.name }}</h4>
+                </div>
+
+                </a>
+            </div>
+        {% endfor %}
+
+    </div>
+
+
+</div>
+
+{% endblock %}
